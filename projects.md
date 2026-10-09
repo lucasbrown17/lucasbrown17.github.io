@@ -1,6 +1,7 @@
+---
 layout: page
-title: "Projects"
+title: Projects
 permalink: /projects
-
+---
 # Project 1
 lorem ipsum
