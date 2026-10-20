@@ -13,11 +13,12 @@ I'm a Control Systems Software Engineer at the UK Atomic Energy Authority, the c
 
 *Interests:* Control Theory, Machine Learning, Real-Time Control & Data Acquisition Implementation.
 
-<button name="button" onclick="/projects" style="height:40px;width:800px;text-align:center">Projects</button>
+<!-- <button name="button" onclick="{{ '/projects.html' | relative_url }}" style="height:40px;width:800px;text-align:center">Projects</button> -->
+<!-- <a href="{{ '/projects.html' | relative_url }}" class="button" style="height:40px;width:800px;text-align:center">Projects</a>
 
-<button name="button" onclick="http://lucasbrown17.github.io/cv" style="height:40px;width:800px;text-align:center">CV</button>
+<button name="button" onclick="lucasbrown17.github.io/cv.html" style="height:40px;width:800px;text-align:center">CV</button>
 
-<button name="button" onclick="http://lucasbrown17.github.io/publications" style="height:40px;width:800px;text-align:center">Publications</button>
+<button name="button" onclick="lucasbrown17.github.io/publications.html" style="height:40px;width:800px;text-align:center">Publications</button> -->
 
 
-[jekyll-organization]: https://github.com/jekyll
+<!-- [jekyll-organization]: https://github.com/jekyll -->

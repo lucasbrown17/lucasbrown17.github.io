@@ -23,9 +23,9 @@ MAST-U is the largest working Fusion device in the UK. I am upgrading and optimi
 
 To acquire real-time data, I led a package to design and install diagnostics, working with operations leaders to manage timelines.
 
-To further investigate the system dynamics, I analysed past data. Using Machine Learning technique, I identified quantitive models for controller development and simulation. 
+To further investigate the system dynamics, I analysed past data. Using Machine Learning techniques, I identified quantitive models for controller development and simulation. 
 
-To build better models and validate control systems, I designed a bench test. I validated the controller through Hardware-in-the-loop testing. **Maybe something here about implementation**
+To build better models and validate control systems, I designed a bench test. I validated the controller through Hardware-in-the-loop testing using a Zynq FPGA-CPU board. 
 
 To benchmark Machine Learning gas flow modelling techniques, I built Bayesian Filters. See the [paper](https://www.sciencedirect.com/science/article/pii/S0920379625001334).
 
@@ -36,7 +36,7 @@ Collaborators: Adam Parrott; Dr Charlie Vincent; Hudson Baker (UKAEA)
 # ROS2 National Instruments Driver
 ![image](/comau_aluminium_beam.jpg){: style="float: center"}
 
-Future fusion machines will have bespoke and flexible parts that need frequent replacement due to neutron bombardment. The handling test rig experiments novel control techniques that reduce bending and avoid collisions. I built a configurable real-time ROS2 C++ driver for National Instruments cDAQ equipment. The event driven acquisition node publishes data from instrumentation such as strain gauges, force-torque sensors and load cells up to 500Hz. I also synchronised this equipment with Precision Time Protocol.
+Future fusion machines will have bespoke and flexible parts that need frequent replacement due to neutron bombardment. The handling test rig experiments novel control techniques that reduce bending and avoid collisions. I built a configurable real-time ROS2 C++ driver for National Instruments cDAQ equipment. The event driven acquisition node publishes data from instrumentation such as strain gauges, force-torque sensors and load cells up to 500Hz. I also synchronised the acquisition equipment with Precision Time Protocol.
 
 Skills: ROS2; ROS2 Control; Real-Time C++; National Instruments Acquisiton; PTP
 
@@ -58,7 +58,7 @@ Collaborators: Prof. Tim Constandinou (Imperial College London)
 # Co-operative Handling
 ![image](/CoopHandling.gif){: style="float: center"}
 
-This research looked at whether dual actuators would solve the problem discuss in the [NI driver section](#ros2-national-instruments-driver). I created the ROS2 application, integrating the Universal Robot, FT sensor and external actuator. We then developed feed forward optimal control schemes and experimented them using a bespoke Graphical User Interface. 
+This research looked at whether dual actuators would solve the problem discussed in the [NI driver section](#ros2-national-instruments-driver). I created the ROS2 application, integrating the Universal Robot, FT sensor and external actuator. We then developed feed forward optimal control schemes and experimented them using a bespoke Graphical User Interface. 
 
 Skills: Python; Julia; C++; Beckhoff PLC; Motor Control; ROS2
 
