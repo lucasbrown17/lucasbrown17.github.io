@@ -56,6 +56,7 @@ Collaborators: Prof. Tim Constandinou (Imperial College London)
 
 
 # Co-operative Handling
+
 ![image](/CoopHandling.gif){: style="float: center"}
 
 This research looked at whether dual actuators would solve the problem discussed in the [NI driver section](#ros2-national-instruments-driver). I created the ROS2 application, integrating the Universal Robot, FT sensor and external actuator. We then developed feed forward optimal control schemes and experimented them using a bespoke Graphical User Interface. 
