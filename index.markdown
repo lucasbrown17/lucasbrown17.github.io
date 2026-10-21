@@ -3,7 +3,7 @@ layout: default
 title: About
 # permalink: /about
 ---
-<img src="/IMG-20211020-WA0014.jpg" alt="drawing" style="height: 467px; width: 350px ;float: left; margin-right: 1em;"/>
+<img src="/IMG-20211020-WA0014.jpg" alt="drawing" style="width: 350px; max-width: 100%; height: auto; float: left; margin-right: 1em;"/>
 
 > We may have knowledge of the past but cannot control it; we may control the future but have no knowledge of it.
 > Claude E. Shannon
